@@ -1,0 +1,19 @@
+.card {
+    @apply bg-white shadow-lg rounded-lg overflow-hidden;
+  }
+  
+  .card-header {
+    @apply p-6 bg-gray-50 border-b;
+  }
+  
+  .card-content {
+    @apply p-6;
+  }
+  
+  .badge {
+    @apply px-2 py-1 rounded-full text-xs font-semibold;
+  }
+  
+  .badge-secondary {
+    @apply bg-gray-200 text-gray-800;
+  }
